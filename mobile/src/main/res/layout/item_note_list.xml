@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_tv"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample Title"/>
+
+    <TextView
+        android:id="@+id/content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autoLink="all"
+        android:text="Sample Content:
+        凤箫声动，玉壶光转，一夜鱼龙舞。
+        笑语盈盈暗香去，蓦然回首，那人却在灯火阑珊处。"
+        android:textColor="#667"/>
+
+    <TextView
+        android:id="@+id/from_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:text="Sample from NowView"
+        android:textColor="#996"/>
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:text="sample date 17:20"/>
+
+</LinearLayout>
